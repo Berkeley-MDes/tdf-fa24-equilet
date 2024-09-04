@@ -1,0 +1,27 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    <style>
+      
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;  
+      }
+
+      img { 
+        width: 50%;
+      padding: 10px;
+      }
+
+    </style>
+
+    <div class="container">
+      <img src="https://storage.googleapis.com/pai-images/a5332dc0843145c0ac7f14becdbb711e.jpeg"></img>
+      <img src="https://storage.googleapis.com/pai-images/c459de53a6574fd4a8fcb4365b0c2d49.jpeg"></img>
+    </div>
+
+    </div>
+  </foreignObject>
+</svg>
