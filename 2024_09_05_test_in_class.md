@@ -1,5 +1,14 @@
 # Some sort of heading
+## Sub-heading here
 
+<p align="center" >
+  here is some centered text
+<img src="https://raw.githubusercontent.com/Berkeley-MDes/tdf-fa23-abigailxchen/main/neopixel.jpg"></img>
+</p>
+
+⬊🙂🤪
+😂🥳
+😎
 Type some regular text.
 
 Format:
