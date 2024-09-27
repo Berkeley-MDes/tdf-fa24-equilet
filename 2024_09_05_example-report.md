@@ -61,6 +61,6 @@ I spent some evaluating the `CellPhoneStand_forGrasshopper` files and had a few 
 
 ### Speculations:
 
-I think that in the upcoming weeks, I want to use this stand for video/still documentation of the work I do.  It will hopefully make my weekly reports easier in the sense that I can manipulate whatever physical objects I am working with during the video recording.  I suspect the faculty of TDF may ask me to make an introductory video about myself in which I discuss the reasons I'm here in the program.  It seems that there was an invitation to have this conversation in the [shared slack channel](https://app.slack.com/client/TSLP7LM8V/C07JEGEQ999)
+I think that in the upcoming weeks, I want to use this stand for video/still documentation of the work I do.  It will hopefully make my weekly reports easier in the sense that I can manipulate whatever physical objects I am working with during the video recording.  I suspect the faculty of TDF may ask me to make an introductory video about myself in which I discuss the reasons I'm here in the program.  It seems that there was an invitation to have this conversation in the TDF slack channel
 
 ---
