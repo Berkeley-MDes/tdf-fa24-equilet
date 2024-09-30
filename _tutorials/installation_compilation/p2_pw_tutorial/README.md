@@ -85,11 +85,11 @@ Let's install Microsoft's Visual Studio Code (VS Code) integrated development en
 1. Verify that the Particle command line tools have been installed:
     - Click on the Particle Workbench **Extension** 
     - Scroll down until the **CODE** section is visible (it will be on the left)
-    - Click on **Launch CLI**
+    - Click on **Launch CLI** (you may get a prompt here to install CLI tools - go for it!)
+    - ...wait some time...
     - Type `which particle`
     - You should see a path print, indicating the installation location of the tools.
-      - If you are _not_ prompted to install the Particle CLI tools, you can force them to install by clicking on the Particle Workbench extension home page, then clicking on **Launch CLI** for the first time, which prompts the workbench.  
-      - If this doesn't work, try the command listed [here](https://docs.particle.io/reference/developer-tools/cli/) in a terminal window.
+      - If your command line tools still do not seem to be installed, try the command listed [here](https://docs.particle.io/reference/developer-tools/cli/) in the terminal window.
 
 #### Supplementary: Installing Microsoft's Serial Monitor Extension
 
