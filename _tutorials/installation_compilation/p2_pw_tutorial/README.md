@@ -148,12 +148,6 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 Click on `Create a Project`.  This will generate all of the necessary files on disk for you to build a project in VS Code and start using the Workbench system.  You'll note that once you do this, the boiler plate `setup()` and `loop()` functions appear, ready to be filled out.
 
-1. Configuration:  Configure your project by typing (`⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`, then type `>Particle: Configure Project for Device`) 
-
-<div align="center" ><img src="command_palette_config.png"></img></div>
-
-
-
 <!--
 _Things to make sure of:_
 
@@ -169,6 +163,10 @@ _Things to make sure of:_
     - plug the other end of the cable to your computer
 
 1. You will notice that an LED illuminates.  This is a multi-colored LED that relays status when the device is powered.  It  will tell you whether your photon2 has a particular issue, if it is connected to a wifi network, and many other modes.  You can view all the modes [here](https://docs.particle.io/troubleshooting/led/).
+
+1. Configuration:  Configure your project by typing (`⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`, then type `>Particle: Configure Project for Device`) 
+
+<div align="center" ><img src="command_palette_config.png"></img></div>
 
 ***Note:*** The usb cable you use is going to depend on your computer that you connect to the photon2 with.  If you have a Type A port, you'll need a type a to micro cable.  If you have a Type C port, you'll need a type C to micro cable, etc.
 
