@@ -18,10 +18,13 @@
 
 1. Connect the device to your computer via the micro-USB port.
 
-<p align="center">
+<div align="center">
 <img src="photon2_unbox_05.jpeg" width="200" />
 <img src="photon2_unbox_06.jpeg" width="200" />
-</p>
+</div>
+<div align="center">
+<img src="photon2_connect_usb.jpeg" width="400" />
+</div>
 
 #### Acquiring your MAC Address & Adding your P2 to UC Campus IoT
 
