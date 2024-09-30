@@ -1,12 +1,23 @@
 ### Get your photon2 on the UC Campus IoT network
 
-This tutorial assumes that you have installed Visual Studio Code, alongside the Particle Workbench extension.
-The goal is to get the Mac address of the device you are planning to use for your projects registered with campus IT so that it is recognized and validated.  The steps below will assist you in this process, and are to be performed in sequence.
+This tutorial assumes that you are attempting to get a `Photon 2` microcontroller on the IoT network to use for the MDes TDF course.  The goal is to obtain the Mac address of the device you are planning to use for your projects registered with campus IT so that it is recognized and validated.  The steps below will assist you in this process, and are to be performed in sequence.
 
 #### Acquire Mac Address
 
 1. connect the micro-usb plug to the photon2 
+
+<div align="center">
+<img src="../p2_pw_tutorial/photon2_unbox_05.jpeg" width="200">
+<img src="../p2_pw_tutorial/photon2_unbox_06.jpeg" width="200">
+</div>
+
 1. connect your photon2 to the computer via the USB port (either type-a or type-c depending on which cable you have see [here](https://www.viewsonic.com/library/tech/usb-c-usb-b-and-usb-a-whats-the-difference/))
+
+<div align="center">
+<img src="../p2_pw_tutorial/photon2_connect_usb.jpeg" width="400">
+</div>
+
+
 1. open up vs code
 1. inside of vs code, open a terminal window (Terminal -> New Terminal)
 1. type `particle serial mac`
