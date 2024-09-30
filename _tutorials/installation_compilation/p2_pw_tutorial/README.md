@@ -3,8 +3,25 @@
 #### Opening the box
 
 1. Open your **Photon 2** box and take the device out.  
+
+<p align="center">
+<img src="photon2_unbox_01.jpeg" width="200" />
+<img src="photon2_unbox_02.jpeg" width="200" />
+<img src="photon2_unbox_03.jpeg" width="200" />
+</p>
+
 1. If you are connecting the photon2 to the breadboard, loosen the anti-static foam from the pins, and press the device into the breadboard to straddle the two sets of rails.
+
+<p align="center">
+<img src="photon2_unbox_04.jpeg" width="200" />
+</p>
+
 1. Connect the device to your computer via the micro-USB port.
+
+<p align="center">
+<img src="photon2_unbox_05.jpeg" width="200" />
+<img src="photon2_unbox_06.jpeg" width="200" />
+</p>
 
 #### Acquiring your MAC Address & Adding your P2 to UC Campus IoT
 
@@ -15,8 +32,23 @@ We are going to take a series of steps to get you set up with your new _Photon 2
 #### Particle.io Account setup
 
 1. [set up a new Particle.io account](https://particle.io/signup) with your information, and copy your login credentials somewhere safe.
+
+<p align="center">
+<img src="particle_signup.png" width="70%" />
+</p>
+
 1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with your new account (note that the [Chrome browser](https://www.google.com/chrome/) is recommended and sometimes required when using Particle).  Make sure to write down your device name - we'll use it later.
+
+<p align="center">
+<img src="particle_setup.png" width="90%" />
+</p>
+
 1. Verify that your device is active by navigating to the [Particle Console Device List](https://console.particle.io/devices), and then selecting the device.  You should see your device listed here as being online, and an illuminated circle that is "breathing cyan".
+
+<p align="center">
+<img src="particle_consoleverify.png" width="90%" />
+</p>
+
 
 ***Note:*** if you just want to restore your device to a known good state without wiping persistent data like Wi-Fi credentials, you can use [this link](https://docs.particle.io/tools/device-restore/device-restore-usb/)
 
@@ -24,7 +56,7 @@ We are going to take a series of steps to get you set up with your new _Photon 2
 
 #### Installing VS Code 
 
-<div align="left"><img src="visual_studio_code.png"></img></div>
+<div align="center"><img src="visualstudio_code.png"></img></div>
 
 Let's install Microsoft's Visual Studio Code (VS Code) integrated development environment (IDE).  We chose this environment because it...
 
@@ -136,9 +168,12 @@ _Things to make sure of:_
     - This is the main file we'll concern ourselves with when writing firmware code to flash the photon2 with.  
     - Note that there is a special menubar that appears at the top-right of the screen.  
       - This contains the buttons you'll need to compile and flash your code.  
-      <div align="left" ><img src="pw_build_menu.png"></img></div>
+      
+<div align="center" ><img src="pw_build_menu.png"></img></div>
 
-1. Click on the small grey checkbox located in this menubar. <div align="left" ><img src="pw_build_menu1.png"></img></div>
+1. Click on the small grey checkbox located in this menubar. 
+
+<div align="center" ><img src="pw_build_menu1.jpg"></img></div>
 
 1. If the compilation was successful you will see the following in the Terminal: `*** COMPILED SUCCESSFULLY ***`.  
   - Success!
@@ -151,7 +186,9 @@ _Things to make sure of:_
 
 #### Flashing your code to the Photon 2 
 
-Now that we have compiled our code, we are ready to flash it to our microcontroller.  This is done by clicking a different button in the menubar, which looks like a lightning bolt. <div align="left" ><img src="pw_build_menu2.png"></img></div>
+Now that we have compiled our code, we are ready to flash it to our microcontroller.  This is done by clicking a different button in the menubar, which looks like a lightning bolt. 
+
+<div align="center" ><img src="pw_build_menu2.jpg"></img></div>
 
 1. Click the lightning bolt
 
@@ -162,6 +199,8 @@ Now that we have compiled our code, we are ready to flash it to our microcontrol
 More success!  You're done!
 
 #### A note on the Command Palette
+
+<img src="command_palette.png" />
 
 We've already used the command palette a couple of times throughout this tutorial.  It allows you to execute commands associated with VS Code and the Particle Workbench from anywhere in the VS Code workspace.  Just to be clear, let's review a couple of notes:
 
