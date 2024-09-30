@@ -206,7 +206,9 @@ More success!  You're done!
 
 We've already used the command palette a couple of times throughout this tutorial.  It allows you to execute commands associated with VS Code and the Particle Workbench from anywhere in the VS Code workspace.  Just to be clear, let's review a couple of notes:
 
-<img src="command_palette.png" />
+<div align="center">
+<img src="command_palette.png" width="80%" />
+</div>
 
 - You focus the command palette with the key combo:  `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`.  This key command focuses the cursor to the palette. 
 - Type `>Particle: XXXX`, where `XXXX` represents the command in Particle Workbench you would like to execute.  
