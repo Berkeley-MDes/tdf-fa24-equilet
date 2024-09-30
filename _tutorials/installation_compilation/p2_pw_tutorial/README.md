@@ -71,7 +71,9 @@ Let's install Microsoft's Visual Studio Code (VS Code) integrated development en
 
 1. Navigate to [the Visual Studio Code download page](https://code.visualstudio.com/Download) and download the software pertaining to your operating system.
 
-1. Open the software application.  You'll notice that there is a sidebar on the left that displays options for selection.  This is the _Extensions_ pane, meant for extending the Visual Studio code IDE.  It looks like this: <div align="left"><img src="extensions_pane.png"></img></div>
+1. Open the software application.  You'll notice that there is a sidebar on the left that displays options for selection.  This is the _Extensions_ pane, meant for extending the Visual Studio code IDE.  It looks like this: 
+
+<div align="center"><img src="extensions_pane.png"></img></div>
 
 1. Click on this icon to expose the Extensions pane.  You'll note that your cursor pops into a field where you can search.
 
@@ -81,7 +83,9 @@ Let's install Microsoft's Visual Studio Code (VS Code) integrated development en
 
 1. Search for "Particle Workbench".  A number of extensions pop up in the results.  The one we want to install is called "Workbench".  This [Extensions] view might display other Particle extensions, some of which are related to the workbench.  You can ignore them.
 
-1. Click on the **Workbench** extension, and you'll see it pop up in a new tab to the right of the sidebar.  <div align="left"><img src="workbench_installer.png"></img></div>
+1. Click on the **Workbench** extension, and you'll see it pop up in a new tab to the right of the sidebar.  
+
+<div align="center"><img src="workbench_installer.png"></img></div>
 
 1. Click on **Install** to install the extension.  This may take some time, depending on your internet connection.  You may also be prompted to install Command Line tools associated with features that the Particle Workbench needs.  Go ahead and say "yes" to these subsequent installations.  They are required for the Workbench to function.
 
@@ -102,7 +106,9 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 - If a serial monitor is present, you'll see it pop up in the results of the command palette - it will read `>Particle: Serial Monitor`
 - If not, we'll need to install one.  Microsoft distributes an extension for just that.  See below:
 
-1. Click on the **Extensions** panel again.  It looks like this: <div align="left"><img src="extensions_pane.png"></img></div>
+1. Click on the **Extensions** panel again.  It looks like this: 
+
+<div align="center"><img src="extensions_pane.png"></img></div>
 
 1. Search for "serial monitor".  There will be a Microsoft extension that shows up.  This is the one you want.  It looks like this: 
 
@@ -116,11 +122,15 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 #### Sign in to Particle Workbench
 
-1. Now that you've installed the Particle Workbench, you will see its icon in the left sidebar.  It looks like this: <div align="left"><img src="pw_extension_icon.png"></img></div>
+1. Now that you've installed the Particle Workbench, you will see its icon in the left sidebar.  It looks like this: 
+
+<div align="center"><img src="pw_extension_icon.png"></img></div>
 
 1. Click on the extension to reveal the main Workbench page. <div align="left"><img src="workbench_main.png"></img></div>
 
 1. Locate the **LOGIN** button, and click it.
+
+<div align="center"><img src="workbench_intro_01.png" width="80%"></img></div>
 
 1. Choose "Login with Username"
 
@@ -134,8 +144,17 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 #### Creating your first Project
 
+<div align="center" ><img src="workbench_intro_03.png" width="80%"></img></div>
+
 Click on `Create a Project`.  This will generate all of the necessary files on disk for you to build a project in VS Code and start using the Workbench system.  You'll note that once you do this, the boiler plate `setup()` and `loop()` functions appear, ready to be filled out.
 
+1. Configuration:  Configure your project by typing (`⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`, then type `>Particle: Configure Project for Device`) 
+
+<div align="center" ><img src="command_palette_config.png"></img></div>
+
+
+
+<!--
 _Things to make sure of:_
 
 1. At the bottom of the Workbench screen, choose device os 5.8.0 <div align="left" ><img  src="device_os.png"></img></div>
@@ -143,6 +162,7 @@ _Things to make sure of:_
 1. In that same area (This tab initially reads `Argon` as of September 2024), choose your device type (make sure it reads `Photon 2 / P2`) <div align="left" ><img src="device_type.png"></img></div>
 
 1. In the area where it says `<select device>`, enter in device name (this is the name of the device that you set up earlier) <div align="left" ><img src="device_name.png"></img></div>
+-->
 
 1. _If it is not already_, connect the photon2 to the computer
     - plug the micro-usb cable into the photon's usb port
@@ -156,7 +176,9 @@ _Things to make sure of:_
 
 1. To make sure that we can compile (and flash) our code, we need to click on the light grey checkbox.  It is located in the top-right menubar of the particle workbench, but is _only_ visible if you are selected inside of a Particle Workbench `.cpp` file. Here is an overview of creating a new project and flashing for the first time:
 
-  - Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: <div align="left" ><img src="explorer.png"></img></div>
+  - Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: 
+
+  <div align="center" ><img src="explorer.png"></img></div>
 
   - Once in the explorer, you'll see a number of items including 
       - `.github`
@@ -210,6 +232,7 @@ More success!  You're done!
 We've already used the command palette a couple of times throughout this tutorial.  It allows you to execute commands associated with VS Code and the Particle Workbench from anywhere in the VS Code workspace.  Just to be clear, let's review a couple of notes:
 
 <div align="center">
+<img src="workbench_intro_02.png" width="80%" />
 <img src="command_palette.png" width="80%" />
 </div>
 
