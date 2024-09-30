@@ -17,7 +17,6 @@ This tutorial assumes that you are attempting to get a `Photon 2` microcontrolle
 <img src="../p2_pw_tutorial/photon2_connect_usb.jpeg" width="400">
 </div>
 
-
 1. open up vs code
 1. inside of vs code, open a terminal window (Terminal -> New Terminal)
 1. type `particle serial mac`
@@ -27,8 +26,23 @@ This tutorial assumes that you are attempting to get a `Photon 2` microcontrolle
 
 1. Log in to the UCB [wifi access portal](https://portal.berkeley.edu/people/wifi_access) (requires CalNet authentication)
 1. Scroll down to "Berkeley-IoT Wi-Fi Network Devices" 
+
+<div align="center">
+<img src="iot_main.png" width="90%">
+</div>
+
 1. Click on "Manage devices"
+
+<div align="left">
+<img src="iot_manage.png" width="200">
+</div>
+
 1. Click on "Create New"
+
+<div align="left">
+<img src="iot_createnew.png" width="150">
+</div>
+
 1. Enter the Mac Address that you copied (from the instructions above)
 1. Give this device a name
 1. Copy the password that is auto-generated (or generate a new one, and then copy) somewhere safe
@@ -36,6 +50,11 @@ This tutorial assumes that you are attempting to get a `Photon 2` microcontrolle
 #### Connect your Photon2 to the IoT network
 
 1. Using a [Chrome Browser](https://www.google.com/chrome) window, navigate to [this link](https://docs.particle.io/tools/developer-tools/configure-wi-fi/)
+
+<div align="center">
+<img src="particle_configure_wifi.png" width="90%">
+</div>
+
 
 1. enter your wifi credentials
   - Wi-Fi network name: `Berkeley-IoT`
