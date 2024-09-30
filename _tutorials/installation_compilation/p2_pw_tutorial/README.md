@@ -10,7 +10,7 @@
 
 We are going to take a series of steps to get you set up with your new _Photon 2_ device.  This includes getting your device on the Berkeley IoT network, setting up a new Particle account that you can use for your work, and configuring your Particle dashboard.  Let's get into it! 
 
-- We need to get your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the addition of your device to the IoT network.  A tutorial that covers that process can be found [here](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_iot_network_tutorial/README.md).  Please complete all instructions, and come back here when you have safely copied the password for your device!
+- We need to get your *Photon 2* registered on the UC Berkeley IoT network, including the acquisition of your MAC address and the addition of your device to the IoT network.  A tutorial that covers that process can be found [here](https://github.com/Berkeley-MDes/tdf-fa24-equilet/tree/main/_tutorials/installation_compilation/p2_iot_tutorial).  Please complete all instructions, and come back here when you have safely copied the password for your device!
 
 #### Particle.io Account setup
 
