@@ -101,9 +101,13 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 1. Click on the **Extensions** panel again.  It looks like this: <div align="left"><img src="extensions_pane.png"></img></div>
 
-1. Search for "serial monitor".  There will be a Microsoft extension that shows up.  This is the one you want.  It looks like this: <div align="left"><img src="m_serial_monitor.png"></img></div>
+1. Search for "serial monitor".  There will be a Microsoft extension that shows up.  This is the one you want.  It looks like this: 
 
-1. Click on **Install** to install the extension. <div align="left" ><img width="80%" src="serial_monitor_installer.png"></img></div>
+<div align="center"><img src="serial_monitor_ext.png" width="300"></img></div>
+
+1. Click on **Install** to install the extension. 
+
+<div align="center" ><img src="serial_monitor_installer.png" width="300"></img></div>
 
 ---
 
@@ -149,15 +153,15 @@ _Things to make sure of:_
 
 1. To make sure that we can compile (and flash) our code, we need to click on the light grey checkbox.  It is located in the top-right menubar of the particle workbench, but is _only_ visible if you are selected inside of a Particle Workbench `.cpp` file. Here is an overview of creating a new project and flashing for the first time:
 
-  1. Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: <div align="left" ><img src="explorer.png"></img></div>
+  - Assuming you have a project loaded, you can click on the explorer icon.  It looks like this: <div align="left" ><img src="explorer.png"></img></div>
 
-  1. Once in the explorer, you'll see a number of items including 
-    - `.github`
-    - `.vscode`
-    - `src`
-    - `.gitignore`
-    - `project.properties`
-    - `README.md` 
+  - Once in the explorer, you'll see a number of items including 
+      - `.github`
+      - `.vscode`
+      - `src`
+      - `.gitignore`
+      - `project.properties`
+      - `README.md` 
 
   ...The one we're interested in is `src`, an abbreviation for _source code_.
 
