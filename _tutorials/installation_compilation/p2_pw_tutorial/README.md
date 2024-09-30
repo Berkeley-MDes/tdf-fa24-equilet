@@ -147,7 +147,7 @@ _Things to make sure of:_
 
 ***Note on errors:*** Your compilation may have errors.  If it does, please report them to one of your professors and/or TA so that we can assist you in the process of debugging.  
 
-***Note on conflicts:*** You may have conflicts with other extensions of VS Code, or possibly compiler clutter.  It may be best for you to check out [this full tutorial](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench) on creating and flashing your first Particle Workbench project.
+***Note on conflicts:*** You may have conflicts with other extensions of VS Code, or possibly compiler clutter.  It may be best for you to check out [this standalone tutorial](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench) on creating and flashing your first Particle Workbench project.
 
 #### Flashing your code to the Photon 2 
 
