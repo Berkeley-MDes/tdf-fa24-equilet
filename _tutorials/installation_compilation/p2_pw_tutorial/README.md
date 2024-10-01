@@ -6,7 +6,6 @@
 
 <p align="center">
 <img src="photon2_unbox_01.jpeg" width="200" />
-<img src="photon2_unbox_02.jpeg" width="200" />
 <img src="photon2_unbox_03.jpeg" width="200" />
 </p>
 
@@ -18,12 +17,12 @@
 
 1. Connect the device to your computer via the micro-USB port.
 
-<div align="center">
-<img src="photon2_unbox_05.jpeg" width="200" />
-<img src="photon2_unbox_06.jpeg" width="200" />
+<div align="center" >
+<img src="photon2_unbox_06.jpeg" height="200"/>
+<img src="photon2_connect_usb.jpeg" width="400" height="200"/>
+
 </div>
 <div align="center">
-<img src="photon2_connect_usb.jpeg" width="400" />
 </div>
 
 #### Acquiring your MAC Address & Adding your P2 to UC Campus IoT
@@ -37,7 +36,7 @@ We are going to take a series of steps to get you set up with your new _Photon 2
 1. [set up a new Particle.io account](https://particle.io/signup) with your information, and copy your login credentials somewhere safe.
 
 <p align="center">
-<img src="particle_signup.png" width="70%" />
+<img src="particle_signup.png" width="40%" />
 </p>
 
 1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with your new account (note that the [Chrome browser](https://www.google.com/chrome/) is recommended and sometimes required when using Particle).  Make sure to write down your device name - we'll use it later.
@@ -85,7 +84,7 @@ Let's install Microsoft's Visual Studio Code (VS Code) integrated development en
 
 1. Click on the **Workbench** extension, and you'll see it pop up in a new tab to the right of the sidebar.  
 
-<div align="center"><img src="workbench_installer.png"></img></div>
+<div align="center"><img src="workbench_installer.png" width="60%"></img></div>
 
 1. Click on **Install** to install the extension.  This may take some time, depending on your internet connection.  You may also be prompted to install Command Line tools associated with features that the Particle Workbench needs.  Go ahead and say "yes" to these subsequent installations.  They are required for the Workbench to function.
 
@@ -124,13 +123,13 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 1. Now that you've installed the Particle Workbench, you will see its icon in the left sidebar.  It looks like this: 
 
-<div align="center"><img src="pw_extension_icon.png"></img></div>
+<div align="center"><img src="pw_extension_icon.png" width="200"></img></div>
 
-1. Click on the extension to reveal the main Workbench page. <div align="left"><img src="workbench_main.png"></img></div>
+1. Click on the extension to reveal the main Workbench page. <div align="center"><img src="workbench_main.png" width="80%"></img></div>
 
 1. Locate the **LOGIN** button, and click it.
 
-<div align="center"><img src="workbench_intro_01.png" width="80%"></img></div>
+<div align="left"><img src="workbench_intro_01.png" width="40%"></img></div>
 
 1. Choose "Login with Username"
 
@@ -144,7 +143,7 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 #### Creating your first Project
 
-<div align="center" ><img src="workbench_intro_03.png" width="80%"></img></div>
+<div align="left" ><img src="workbench_intro_03.png" width="40%"></img></div>
 
 Click on `Create a Project`.  This will generate all of the necessary files on disk for you to build a project in VS Code and start using the Workbench system.  You'll note that once you do this, the boiler plate `setup()` and `loop()` functions appear, ready to be filled out.
 
@@ -230,8 +229,8 @@ More success!  You're done!
 We've already used the command palette a couple of times throughout this tutorial.  It allows you to execute commands associated with VS Code and the Particle Workbench from anywhere in the VS Code workspace.  Just to be clear, let's review a couple of notes:
 
 <div align="center">
-<img src="workbench_intro_02.png" width="80%" />
-<img src="command_palette.png" width="80%" />
+<img src="workbench_intro_02.png" width="40%" />
+<img src="command_palette.png" width="70%" />
 </div>
 
 - You focus the command palette with the key combo:  `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`.  This key command focuses the cursor to the palette. 
