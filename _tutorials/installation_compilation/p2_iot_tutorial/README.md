@@ -10,7 +10,7 @@ This tutorial assumes that you are attempting to get a `Photon 2` microcontrolle
 <img src="../p2_pw_tutorial/photon2_unbox_06.jpeg" width="400">
 </div>
 
-1. connect your photon2 to the computer via the USB port (either type-a or type-c depending on which cable you have see [here](https://www.viewsonic.com/library/tech/usb-c-usb-b-and-usb-a-whats-the-difference/))
+1. connect your photon2 to the computer via the USB port (either type-a or type-c depending on which cable you have; see [here](https://www.viewsonic.com/library/tech/usb-c-usb-b-and-usb-a-whats-the-difference/))
 
 <div align="center">
 <img src="../p2_pw_tutorial/photon2_connect_usb.jpeg" width="400">
