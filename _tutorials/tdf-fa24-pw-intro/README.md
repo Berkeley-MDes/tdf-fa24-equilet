@@ -29,7 +29,7 @@ You can compile and flash between files as many times as you like.
 - an event is published to the cloud with the value of the counter
 
 5. This last part is where we end, in `06_publishing_info.cpp`.
-We build up to this point in 6 stages, and each stage can be evaluted in a separate file.
+We build up to this point in 6 stages, and each stage can be evaluated in a separate file.
 
 6. You can view the result of the call to `Particle.publish()` by going [here](https://console.particle.io/devices) in a Chrome Browser.
 - click on your device
