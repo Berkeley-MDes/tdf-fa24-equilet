@@ -7,7 +7,6 @@ This tutorial assumes that you are attempting to get a `Photon 2` microcontrolle
 1. connect the micro-usb plug to the photon2 
 
 <div align="center">
-<img src="../p2_pw_tutorial/photon2_unbox_05.jpeg" width="200">
 <img src="../p2_pw_tutorial/photon2_unbox_06.jpeg" width="200">
 </div>
 
