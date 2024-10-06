@@ -21,7 +21,9 @@ int count = 0;
 int periodicity = 3000;
 bool button_pressed = false;
 
+// function prototypes
 void button_press(void); // function prototype for the button press function
+void change_period(void); 
 
 // setup() runs once, when the device is first turned on
 void setup() {
