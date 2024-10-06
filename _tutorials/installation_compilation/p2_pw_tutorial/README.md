@@ -25,6 +25,8 @@
 <div align="center">
 </div>
 
+
+
 #### Acquiring your MAC Address & Adding your P2 to UC Campus IoT
 
 We are going to take a series of steps to get you set up with your new _Photon 2_ device.  This includes getting your device on the Berkeley IoT network, setting up a new Particle account that you can use for your work, and configuring your Particle dashboard.  Let's get into it! 
