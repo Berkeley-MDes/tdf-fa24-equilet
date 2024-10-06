@@ -38,6 +38,7 @@ void loop() {
   //log the current character
   Log.info("current character: %c", hello[count]);
   count++;
+
   // incur a delay of 3 seconds
   delay(300);
 }
