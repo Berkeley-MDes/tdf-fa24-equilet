@@ -1,12 +1,12 @@
 /* 
- * Project accel_gyro MPU6050
+ * Project accel_gyro MPU6050_proj
  * Author: Jeffrey Lubow
  * Date: 2024-10-02
  * For comprehensive documentation and examples, please visit:
  * https://docs.particle.io/firmware/best-practices/firmware-template/
  */
 
-// Include Particle Device OS APIs
+// Include the necessary libraries
 #include "Particle.h"
 #include "MPU6050.h"
 #define OUTPUT_READABLE_ACCELGYRO
@@ -17,7 +17,7 @@ SYSTEM_THREAD(ENABLED);
 SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
 const pin_t ledPin = D7;
-const pin_t buttonPin = D2;
+const pin_t buttonPin = D3;
 
 // MPU variables:
 MPU6050 accelgyro;
@@ -99,6 +99,12 @@ void loop() {
     Serial.print(vx); Serial.print("\t");
     Serial.print(vy); Serial.print("\t");
     Serial.println(vz);
+
+    int counter = 0;
+    Log.info("count", counter);
+
+    //write a message to the serial port with the counter 
+    Serial.printlnf("Counter: %d", counter);
 
     buttonState = false;
   }

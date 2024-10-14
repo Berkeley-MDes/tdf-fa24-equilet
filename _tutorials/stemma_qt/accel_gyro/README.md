@@ -1,4 +1,4 @@
-## Stemma-QT series:  accel_gyro
+## Stemma-QT series: MPU6050 accel / gyroscope
 
 ![stemma-qt accel_gyro](accelgyro_persp.JPG)
 
@@ -26,9 +26,10 @@ This tutorial will assist you in the acquisition of data from the [Adafruit MPU6
 
 The circuit is powered over 3.3V from the microcontroller, which can be supplied via a usb power adapter, a lipo battery, or your computer's usb port.
 
-accel/gyro top image:
----
-![accel_gyro top](accelgyro_top.JPG) 
+accel/gyro top | accel/gyro fritzing
+--- | ---
+![accel_gyro top](accelgyro_top.JPG) | ![accel_gyro fritzing](accelgyro.png)
+
 ### Steps to recreate circuit:
 
 Preparation:
@@ -54,7 +55,7 @@ Button connections:
 
 - push a 2-leg button into two separate rails of a breadboard
 - wire the "top" leg (refer to the image) to the 3.3V pin of the microcontroller
-- wire the "bottom" leg to pin D2
+- wire the "bottom" leg to pin D3
 
 ---
 
@@ -62,7 +63,7 @@ Button connections:
 
 **Note:** *We assume that you have installed Particle Workbench inside of Visual Studio Code, and are familiar with the process of selecting your device.*  If not, see [this tutorial](https://github.com/Berkeley-MDes/tdf-fa24-equilet/blob/main/_tutorials/installation_compilation/p2_pw_tutorial/README.md).
 
-1. open the folder this README resides within in Visual Studio Code
+1. [open](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench#open-an-existing-project-in-vs-code) the folder this README resides within in Visual Studio Code
 1. prepare your Particle Workbench environment for flashing as described [here](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench#setting-a-project-up).
 1. verify/compile
 1. flash the code to your photon2 
@@ -81,7 +82,7 @@ SYSTEM_THREAD(ENABLED);
 SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
 const pin_t ledPin = D7;
-const pin_t buttonPin = D2;
+const pin_t buttonPin = D3;
 
 // MPU variables:
 MPU6050 accelgyro;
@@ -169,7 +170,7 @@ void loop() {
 
 ### To use/test
 
-1. Open the project folder as described [here](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench#open-an-existing-project-in-vs-code), and follow the subsequent steps to compile & flash
+1. Open, compile, and flash as described above
 1. Once the project is on the Photon 2, proceed
 1. Move the accelerometer around in the air
 1. View values sent to the serial port by opening up a monitor in the Particle Workbench and selecting your port, then clicking on `Start Monitoring`
