@@ -63,10 +63,11 @@ Button connections:
 
 **Note:** *We assume that you have installed Particle Workbench inside of Visual Studio Code, and are familiar with the process of selecting your device.*  If not, see [this tutorial](https://github.com/Berkeley-MDes/tdf-fa24-equilet/blob/main/_tutorials/installation_compilation/p2_pw_tutorial/README.md).
 
-1. [open](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench#open-an-existing-project-in-vs-code) the folder this README resides within in Visual Studio Code
-1. prepare your Particle Workbench environment for flashing as described [here](https://github.com/Berkeley-MDes/24f-desinv-202/wiki/Particle-Workbench#setting-a-project-up).
+1. open the folder this README resides within in Visual Studio Code
+1. bring up the command palette with `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)` 
+1. type `>Particle: Configure Project for Device`, and hit `enter`
 1. verify/compile
-1. flash the code to your photon2 
+1. flash the code to your `Photon2` 
 
 #### Code (from project):
 

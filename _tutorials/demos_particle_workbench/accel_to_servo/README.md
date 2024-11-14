@@ -85,7 +85,7 @@ accel-to-servo top | accel-to-servo fritzing
 1. bring up the command palette with `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)` 
 1. type `>Particle: Configure Project for Device`, and hit `enter`
 1. verify/compile
-1. flash the code to your photon2 
+1. flash the code to your `Photon2` 
 
 <a name="code"></a>
 #### Code (represented in project):

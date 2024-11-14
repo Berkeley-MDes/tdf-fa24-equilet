@@ -110,11 +110,10 @@ Photon connections (for the publishing unit):
 **Note:** *We assume that you have installed Particle Workbench inside of Visual Studio Code, and are familiar with the process of selecting your device.*  If not, see [this tutorial](https://github.com/Berkeley-MDes/tdf-fa24-equilet/blob/main/_tutorials/installation_compilation/p2_pw_tutorial/README.md).
 
 1. In Visual Studio Code, open either the publish or subscribe project folder
-1. select your particle device OS
-1. select your particle device type
-1. select your particle photon 2 device either by device name or ID
+1. bring up the command palette with `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)` 
+1. type `>Particle: Configure Project for Device`, and hit `enter`
 1. verify/compile
-1. flash the code to your `photon2` 
+1. flash the code to your `Photon2` 
 
 <a name="code"></a>
 #### Code (publish project):
