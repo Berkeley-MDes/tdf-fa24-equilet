@@ -3,8 +3,7 @@
 A Particle Workbench Project demonstrating how to process an accelerometer's input to yield output in a servo motor.  
 
 <div align="center">
-<img height="240px" src="accel_servo01.JPG"></img>
-<img height="240px" src="accel_servo_overlay.png"></img>
+<img src="accel_servo01.JPG"></img>
 </div>
 
 ## Table of Contents
@@ -41,6 +40,13 @@ The circuit is powered over 3.3V from the microcontroller, which can be supplied
 accel-to-servo top | accel-to-servo fritzing
 ---|---
 ![a2s top](accel_servo02.JPG) | ![a2s fritzing](accel_servo.png)
+
+<div align="center">
+  <br>
+  <img height="400px" src="accel_servo_overlay.png">
+  <p>pinout detail</p>
+</div>
+
 
 <a name="steps-circuit"></a>
 ### Steps to recreate circuit:
