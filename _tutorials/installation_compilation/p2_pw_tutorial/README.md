@@ -41,7 +41,7 @@ We are going to take a series of steps to get you set up with your new _Photon 2
 <img src="particle_signup.png" width="40%" />
 </p>
 
-1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with your new account (note that the [Chrome browser](https://www.google.com/chrome/) is recommended and sometimes required when using Particle).  Make sure to write down your device name - we'll use it later.
+1. [register and set up your *Photon 2* device](https://setup.particle.io/) with the Particle.io platform, associated with your new account (note that the [Chrome browser](https://www.google.com/chrome/) is recommended and sometimes required when using Particle).
 
 <p align="center">
 <img src="particle_setup.png" width="90%" />
@@ -149,23 +149,13 @@ The Particle Workbench should install a utility for monitoring the serial port. 
 
 Click on `Create a Project`.  This will generate all of the necessary files on disk for you to build a project in VS Code and start using the Workbench system.  You'll note that once you do this, the boiler plate `setup()` and `loop()` functions appear, ready to be filled out.
 
-<!--
-_Things to make sure of:_
-
-1. At the bottom of the Workbench screen, choose device os 5.8.0 <div align="left" ><img  src="device_os.png"></img></div>
-
-1. In that same area (This tab initially reads `Argon` as of September 2024), choose your device type (make sure it reads `Photon 2 / P2`) <div align="left" ><img src="device_type.png"></img></div>
-
-1. In the area where it says `<select device>`, enter in device name (this is the name of the device that you set up earlier) <div align="left" ><img src="device_name.png"></img></div>
--->
-
 1. _If it is not already_, connect the photon2 to the computer
     - plug the micro-usb cable into the photon's usb port
     - plug the other end of the cable to your computer
 
 1. You will notice that an LED illuminates.  This is a multi-colored LED that relays status when the device is powered.  It  will tell you whether your photon2 has a particular issue, if it is connected to a wifi network, and many other modes.  You can view all the modes [here](https://docs.particle.io/troubleshooting/led/).
 
-1. Configuration:  Configure your project by typing (`⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`, then type `>Particle: Configure Project for Device`) 
+1. Configuration:  Configure your project by typing (`⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)`, then type `>Particle: Configure Project for Device`).  Follow the prompts to enter in your OS and platform `Photon 2 / P2`.  When prompted for your device name, hit either `enter` or `esc`.  We do not need the device name in the workbench to flash code.
 
 <div align="center" ><img src="command_palette_config.png" width="70%"></img></div>
 
