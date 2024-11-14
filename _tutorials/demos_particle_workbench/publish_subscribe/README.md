@@ -196,5 +196,7 @@ void value_handler(const char *event, const char *data){
 
 ### To use/test
 
-1. Turn the knob on the `photon2` designated as the publisher 
-1. Look in the serial monitor (make sure you've selected a port in the monitor window as well as enabling monitoring) for values that are captured over the cloud!
+1. Turn both devices on (making sure that the subscriber is connected to your computer via USB)
+1. Look in the serial monitor for values that are captured over the cloud!
+  - make sure you've selected a port in the serial monitor window 
+  - enabling monitoring 
