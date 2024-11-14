@@ -1,3 +1,0 @@
-remake both projects with modern environment
-evaluate notes for any clarifications on usage
-adding to teams, products, etc
