@@ -51,19 +51,19 @@ accel-to-servo top | accel-to-servo fritzing
 <a name="steps-circuit"></a>
 ### Steps to recreate circuit:
 
-Photon 2 connections:
+**Photon 2 connections:**
 
 1. push your Photon 2's pins into a mini (or regular) breadboard so that it straddles the two sides.  Note that one of the sides will have more pins left on the relevant rails than the other.  This is fine.  Also note that if you position the device towards the top of the board it's easier to plug in the micro-USB cable.  
 1. connect a lead from the 3.3V pin of the photon2 to the red rail on your breadboard
 1. connect a lead from the GND pin on the photon2 to the ground rail on your breadboard (blue or black)
 
-Servo (FS90R) connections:
+**Servo (FS90R) connections:**
 
 1. connect a lead from the red socket of the servo female connector to the 3.3V rail on your breadboard 
 1. connect a lead from the brown socket of the female connector to the ground rail on your breadboard 
 1. connect a lead from the orange socket of the female connector to the rail on your breadboard that connects to the D1 digital pin (note that not all pins offer PWM so we are choosing this one specifically, but feel free to use a similarly compatible pin, knowing that you'd have to alter this in the code).
 
-Accelerometer (ADXL362) connections:
+**Accelerometer (ADXL362) connections:**
 
 1. connect a lead from the ADXL362's VIN to the 3.3V rail on your breadboard
 1. connect the ADXL362's GND (ground) to the GND rail on your breadboard
@@ -79,7 +79,7 @@ Accelerometer (ADXL362) connections:
 <a name="steps-software"></a>
 ### Steps to replicate software environment
 
-**Note:** *We assume that you have installed Particle Workbench inside of Visual Studio Code, and are familiar with the process of selecting your device.*  If not, see [this tutorial](https://github.com/Berkeley-MDes/tdf-fa23-equilet/blob/main/_pw_tutorial/README.md).
+**Note:** *We assume that you have installed Particle Workbench inside of Visual Studio Code, and are familiar with the process of selecting your device.*  If not, see [this tutorial](https://github.com/Berkeley-MDes/tdf-fa24-equilet/blob/main/_tutorials/installation_compilation/p2_pw_tutorial/README.md).
 
 1. open the folder this README resides within in Visual Studio Code
 1. bring up the command palette with `⇧⌃P (Windows, Linux) | ⇧⌘P (macOS)` 
