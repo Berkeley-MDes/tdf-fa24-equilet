@@ -38,8 +38,12 @@ To use the DotStar Matrix, you'll need to some modifications:
 - solder a jumper wire from the rightmost CIN pad and the 3rd pad from the top-left (D4)
 - solder a jumper wire from the rightmost DIN pad and the 1st pad from the top-left (D2)
 
-![dotstar bottom](imgs/dotstarmatrix-spi1.png)
-*Modifications of the DotStar board*
+<div align="center">
+<p>
+<img src="imgs/dotstarmatrix-spi1.png">
+Modifications of the DotStar board
+</p>
+</div>
 
 **FeatherWing Doubler Connections**
 
@@ -51,7 +55,10 @@ To use the DotStar Matrix, you'll need to some modifications:
 1. connect your Photon2 to the doubler
 1. connect your Photon2 to the computer with a usb cable 
 
-<div align="center"><h5>...Assembly</h5><img src="imgs/assembly_01.png"></img></div>
+<div align="center">
+<h5>...Assembly</h5>
+<img src="imgs/assembly_01.png">
+</div>
 
 ---
 
