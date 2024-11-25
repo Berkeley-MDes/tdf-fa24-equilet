@@ -40,7 +40,7 @@ To use the DotStar Matrix, you'll need to some modifications:
 
 <div align="center">
 <p>
-<img src="imgs/dotstarmatrix-spi1.png">
+<img src="imgs/dotstarmatrix-spi1.png"><br>
 Modifications of the DotStar board
 </p>
 </div>
