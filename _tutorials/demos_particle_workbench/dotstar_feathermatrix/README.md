@@ -7,7 +7,7 @@
 
 ### Introduction 
 
-The DotStar FeatherWing matrix can be connected to the Photon2 via a FeatherWing Doubler.  Details included below.
+The [DotStar FeatherWing](https://www.adafruit.com/product/3449) matrix can be connected to the Photon2 via a FeatherWing Doubler.  Details included below.
 
 #### This project series demonstrates the following:
 
